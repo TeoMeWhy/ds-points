@@ -22,6 +22,16 @@ Assim, pensamos em construir um projeto de Data Science que aborde todas as etap
 - Treinamento de modelos preditivos;
 - Deploy;
 
+### Pré-requisitos
+
+Para ter uma melhor experiência com nosso projeto, vale a pena conferir as seguintes playlists totalmente gratuitas:
+
+- [Git/GitHub](https://www.youtube.com/playlist?list=PLvlkVRRKOYFQ3cfYPjLeQ0KvrQ8bG5H11)
+- [Python](https://www.youtube.com/playlist?list=PLvlkVRRKOYFRXdquucikNbwYeFzzzYIGb)
+- [Pandas](https://www.youtube.com/playlist?list=PLvlkVRRKOYFSl-XCxNQ1u3uOLvDnYxupG)
+- [Estatística](https://www.youtube.com/playlist?list=PLvlkVRRKOYFSWIyhwq4Nu8sNd_GfOi1tj)
+- [Machine Learning](https://www.youtube.com/playlist?list=PLvlkVRRKOYFTXcpttQSZmv1wDg7F3uH7o)
+
 ## Apoie essa inciativa!
 
 Realizamos um trabalho de educação na área de dados de forma gratuita, então todo apoio é importante. Confira as diferentes maneiras de nos apoiar:
@@ -32,4 +42,4 @@ Realizamos um trabalho de educação na área de dados de forma gratuita, então
 - 💴 ApoiaSe: [apoia.se/teomewhy](apoia.se/teomewhy)
 - 🎥 Membro no YouTube: [youtube.com/@teomewhy/membership](https://www.youtube.com/@teomewhy/membership)
 - 🎮 Sub na Twitch: [twitch.tv/teomewhy](https://www.twitch.tv/teomewhy)
-💌 Newsletter: [teomewhy.substack.com](https://teomewhy.substack.com/)
+- 💌 Newsletter: [teomewhy.substack.com](https://teomewhy.substack.com/)
