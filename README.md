@@ -25,10 +25,11 @@ Assim, pensamos em construir um projeto de Data Science que aborde todas as etap
 ## Apoie essa inciativa!
 
 Realizamos um trabalho de educação na área de dados de forma gratuita, então todo apoio é importante. Confira as diferentes maneiras de nos apoiar:
-💵 Chave Pix: pix@teomewhy.org
-💶 LivePix: [livepix.gg/teomewhy](livepix.gg/teomewhy)
-💷 GitHub Sponsors: [github.com/sponsors/TeoMeWhy](github.com/sponsors/TeoMeWhy)
-💴 ApoiaSe: [apoia.se/teomewhy](apoia.se/teomewhy)
-🎥 Membro no YouTube: [youtube.com/@teomewhy/membership](https://www.youtube.com/@teomewhy/membership)
-🎮 Sub na Twitch: [twitch.tv/teomewhy](https://www.twitch.tv/teomewhy)
+
+- 💵 Chave Pix: pix@teomewhy.org
+- 💶 LivePix: [livepix.gg/teomewhy](livepix.gg/teomewhy)
+- 💷 GitHub Sponsors: [github.com/sponsors/TeoMeWhy](github.com/sponsors/TeoMeWhy)
+- 💴 ApoiaSe: [apoia.se/teomewhy](apoia.se/teomewhy)
+- 🎥 Membro no YouTube: [youtube.com/@teomewhy/membership](https://www.youtube.com/@teomewhy/membership)
+- 🎮 Sub na Twitch: [twitch.tv/teomewhy](https://www.twitch.tv/teomewhy)
 💌 Newsletter: [teomewhy.substack.com](https://teomewhy.substack.com/)
