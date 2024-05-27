@@ -1,5 +1,7 @@
 # Data Science & Points
 
+<img src="https://i.ibb.co/cc3d5Lq/teomewhy-A-little-child-wizard-wearing-a-purple-cloak-using-h-d359021c-4186-4e11-9693-a6e4f1b1b7c5-3.png" alt="teomewhy-A-little-child-wizard-wearing-a-purple-cloak-using-h-d359021c-4186-4e11-9693-a6e4f1b1b7c5-3" border="0" width=800>
+
 Projeto de aplicação em Data Science do início ao fim. Um pipeline completo para solução de dados.
 
 - [Sobre](#sobre)
