@@ -48,6 +48,13 @@ Téo é um entusiasta do universo de dados, traz consigo uma rica jornada nas es
 
 Além de suas realizações profissionais, Teo nutre uma paixão dedicada à democratização do conhecimento na área de dados e tecnologia. Por meio de sua iniciativa educacional, Téo Me Why, ele compartilha insights valiosos, promove treinamentos envolventes e disponibiliza material autoral, alcançando uma audiência global. Sua abordagem acessível e inspiradora tem impactado milhares de entusiastas, tornando o aprendizado sobre dados mais inclusivo e estimulante.
 
+<div> 
+  <a href="https://www.youtube.com/channel/UC-Xa9J9-B4jBOoBNIHkMMKA" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+  <a href="https://instagram.com/teomewhy" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+ 	<a href="https://www.twitch.tv/teomewhy" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/teocalvo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
+
 ## Apoie essa inciativa!
 
 Realizamos um trabalho de educação na área de dados de forma gratuita, então todo apoio é importante. Confira as diferentes maneiras de nos apoiar:
