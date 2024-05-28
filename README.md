@@ -42,6 +42,12 @@ Para ter uma melhor experiência com nosso projeto, vale a pena conferir as segu
 
 :arrow_lower_right: [Baixe os dados aqui!](https://drive.google.com/drive/folders/1JLzofrtaVQdo0PdUysNWjNsBdAaI21EJ?usp=sharing) :arrow_lower_left:
 
+## Sobre o autor
+
+Téo é um entusiasta do universo de dados, traz consigo uma rica jornada nas esferas de Data Science e Analytics. Como líder, destacou-se na condução estratégica de equipes, liderando pessoas e projetos de Advanced Analytics. Sua visão inovadora, não apenas transformou a cultura organizacional, mas também impulsionou a implementação de diversos projetos de dados, integrando de maneira eficiente áreas cruciais da empresa.
+
+Além de suas realizações profissionais, Teo nutre uma paixão dedicada à democratização do conhecimento na área de dados e tecnologia. Por meio de sua iniciativa educacional, Téo Me Why, ele compartilha insights valiosos, promove treinamentos envolventes e disponibiliza material autoral, alcançando uma audiência global. Sua abordagem acessível e inspiradora tem impactado milhares de entusiastas, tornando o aprendizado sobre dados mais inclusivo e estimulante.
+
 ## Apoie essa inciativa!
 
 Realizamos um trabalho de educação na área de dados de forma gratuita, então todo apoio é importante. Confira as diferentes maneiras de nos apoiar:
