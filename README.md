@@ -42,6 +42,9 @@ Para ter uma melhor experiência com nosso projeto, vale a pena conferir as segu
 
 :arrow_lower_right: [Baixe os dados aqui!](https://drive.google.com/drive/folders/1JLzofrtaVQdo0PdUysNWjNsBdAaI21EJ?usp=sharing) :arrow_lower_left:
 
+:arrow_lower_right: [Acesso a Apresentação aqui!](https://docs.google.com/presentation/d/1zMTsaAeoMX9ico13PVd7_tOffE8kUH-IOA5kCjSYIx8/edit?usp=sharing) :arrow_lower_left:
+
+
 ## Sobre o autor
 
 Téo é um entusiasta do universo de dados, traz consigo uma rica jornada nas esferas de Data Science e Analytics. Como líder, destacou-se na condução estratégica de equipes, liderando pessoas e projetos de Advanced Analytics. Sua visão inovadora, não apenas transformou a cultura organizacional, mas também impulsionou a implementação de diversos projetos de dados, integrando de maneira eficiente áreas cruciais da empresa.
