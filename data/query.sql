@@ -7,3 +7,5 @@ ON t1.idCustomer = t2.idCustomer
 
 LEFT JOIN transactions_product AS t3
 ON t2.idTransaction = t3.idTransaction
+
+ORDER BY t2.dtTransaction DESC
