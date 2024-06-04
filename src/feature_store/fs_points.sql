@@ -6,50 +6,49 @@ WITH tb_pontos_d AS (
 
         SUM(CASE WHEN dtTransaction >= DATE('{date}', '-14 day')
                         THEN pointsTransaction
-                    ELSE 0
+                 ELSE 0
                 END) AS saldoPointsD14,
 
         SUM(CASE WHEN dtTransaction >= DATE('{date}', '-7 day')
                         THEN pointsTransaction
-                    ELSE 0
+                 ELSE 0
                 END) AS saldoPointsD7,
 
 
         SUM(CASE WHEN pointsTransaction > 0
                         THEN pointsTransaction
-                    ELSE 0
+                 ELSE 0
                 END) AS pointsAcumuladosD21,
 
         SUM(CASE WHEN pointsTransaction > 0
-                    AND dtTransaction >= DATE('{date}', '-14 day')
+                 AND dtTransaction >= DATE('{date}', '-14 day')
                         THEN pointsTransaction
-                    ELSE 0
+                 ELSE 0
             END) AS pointsAcumuladosD14,
 
             SUM(CASE WHEN pointsTransaction > 0
-                    AND dtTransaction >= DATE('{date}', '-7 day')
+                     AND dtTransaction >= DATE('{date}', '-7 day')
                         THEN pointsTransaction
                     ELSE 0
             END) AS pointsAcumuladosD7,
 
 
         SUM(CASE WHEN pointsTransaction < 0
-                        THEN pointsTransaction
-                    ELSE 0
-                END) AS pointsResgatadosD21,
+                    THEN pointsTransaction
+                 ELSE 0
+            END) AS pointsResgatadosD21,
 
         SUM(CASE WHEN pointsTransaction < 0
-                    AND dtTransaction >= DATE('{date}', '-14 day')
-                        THEN pointsTransaction
-                    ELSE 0
+                 AND dtTransaction >= DATE('{date}', '-14 day')
+                    THEN pointsTransaction
+                 ELSE 0
             END) AS pointsResgatadosD14,
 
         SUM(CASE WHEN pointsTransaction < 0
-                    AND dtTransaction >= DATE('{date}', '-7 day')
-                        THEN pointsTransaction
-                    ELSE 0
+                 AND dtTransaction >= DATE('{date}', '-7 day')
+                    THEN pointsTransaction
+                 ELSE 0
             END) AS pointsResgatadosD7
-
 
     FROM transactions
 
@@ -64,11 +63,13 @@ tb_vida AS (
 
     SELECT t1.idCustomer,
             SUM(t2.pointsTransaction) AS saldoPoints,
+
             SUM(CASE
                     WHEN t2.pointsTransaction > 0
                         THEN t2.pointsTransaction
                     ELSE 0
                 END) AS pointsAcumuladosVida,
+
             SUM(CASE
                     WHEN t2.pointsTransaction < 0
                         THEN t2.pointsTransaction
@@ -100,9 +101,7 @@ tb_join AS (
 
     LEFT JOIN tb_vida AS t2
     ON t1.idCustomer = t2.idCustomer
-
 )
-
 
 SELECT *
 FROM tb_join
