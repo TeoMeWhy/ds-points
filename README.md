@@ -32,6 +32,8 @@ Assim, pensamos em construir um projeto de Data Science que aborde todas as etap
 
 ### Pré-requisitos
 
+#### Disciplinas
+
 Para ter uma melhor experiência com nosso projeto, vale a pena conferir as seguintes playlists totalmente gratuitas:
 
 - [Git/GitHub](https://www.youtube.com/playlist?list=PLvlkVRRKOYFQ3cfYPjLeQ0KvrQ8bG5H11)
@@ -40,10 +42,18 @@ Para ter uma melhor experiência com nosso projeto, vale a pena conferir as segu
 - [Estatística](https://www.youtube.com/playlist?list=PLvlkVRRKOYFSWIyhwq4Nu8sNd_GfOi1tj)
 - [Machine Learning](https://www.youtube.com/playlist?list=PLvlkVRRKOYFTXcpttQSZmv1wDg7F3uH7o)
 
-:arrow_lower_right: [Baixe os dados aqui!](https://drive.google.com/drive/folders/1JLzofrtaVQdo0PdUysNWjNsBdAaI21EJ?usp=sharing) :arrow_lower_left:
+#### Materiais
 
-:arrow_lower_right: [Acesso a Apresentação aqui!](https://docs.google.com/presentation/d/1zMTsaAeoMX9ico13PVd7_tOffE8kUH-IOA5kCjSYIx8/edit?usp=sharing) :arrow_lower_left:
+- :arrow_lower_right: [Baixe os dados aqui!](https://drive.google.com/drive/folders/1JLzofrtaVQdo0PdUysNWjNsBdAaI21EJ?usp=sharing) :arrow_lower_left:
+- :arrow_lower_right: [Acesso a Apresentação aqui!](https://docs.google.com/presentation/d/1zMTsaAeoMX9ico13PVd7_tOffE8kUH-IOA5kCjSYIx8/edit?usp=sharing) :arrow_lower_left:
 
+#### Softwares
+- [Python/Anaconda](anaconda.com/download)
+- [VSCode](https://code.visualstudio.com/download)
+  - [Extensão Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  - [Extensão Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+  - [Extensão SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
+  - [Extensão SQLTools SQLite](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-sqlite)
 
 ## Sobre o autor
 
