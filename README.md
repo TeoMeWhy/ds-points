@@ -19,8 +19,6 @@ Tudo foi desenvolvido ao vivo no canal [Téo Me Why](https://teomewhy.org) e dis
 
 Assina aqui: [Twitch](https://www.twitch.tv/collections/jg9itHOO1ReLcw) / [YouTube](https://www.youtube.com/playlist?list=PLvlkVRRKOYFQOkwDvfgCvKi9-I1jQXiy7)
 
-Nosso projeto tem início dia 03/06 às 9AM, na Twitch. [Adicione o evento na sua agenda](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NWVrdGU3N3BrNTlzcjZoMXZ1N3RoanJtdjhfMjAyNDA2MDNUMTIwMDAwWiB0ZW9AdGVvbWV3aHkub3Jn&tmsrc=teo%40teomewhy.org&scp=ALL).
-
 ### Contexto
 Temos os dados de nossos usuários de sistema de pontos do canal. Com base nisso, desejamos identificar ações e produtos de dados que aumentem o engajamento de nossos usuários.
 
