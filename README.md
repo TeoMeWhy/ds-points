@@ -13,9 +13,11 @@ Projeto de aplicação em Data Science do início ao fim. Um pipeline completo p
 - [Como apoiar](#apoie-essa-inciativa)
 
 ## Sobre
-Iremos construir uma solução de Data Science, aplicando técnicas de Machine Learning para um problema de negócios específico.
+Coinstruimos uma solução de Data Science, aplicando técnicas de Machine Learning para um problema de negócios específico.
 
-Tudo será desenvolvido ao vivo no canal [Téo Me Why](https://teomewhy.org) e depois disponibilizado para nossos Subs da Twitch e [Membros do YouTube](https://www.youtube.com/channel/UC-Xa9J9-B4jBOoBNIHkMMKA/join).
+Tudo foi desenvolvido ao vivo no canal [Téo Me Why](https://teomewhy.org) e disponibilizado para nossos Subs da Twitch e Membros do YouTube.
+
+Assina aqui: [Twitch](https://www.twitch.tv/collections/jg9itHOO1ReLcw) / [YouTube](https://www.youtube.com/playlist?list=PLvlkVRRKOYFQOkwDvfgCvKi9-I1jQXiy7)
 
 Nosso projeto tem início dia 03/06 às 9AM, na Twitch. [Adicione o evento na sua agenda](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NWVrdGU3N3BrNTlzcjZoMXZ1N3RoanJtdjhfMjAyNDA2MDNUMTIwMDAwWiB0ZW9AdGVvbWV3aHkub3Jn&tmsrc=teo%40teomewhy.org&scp=ALL).
 
