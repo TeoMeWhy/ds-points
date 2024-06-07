@@ -122,13 +122,7 @@ report_oot = report_metrics(df_oot[target], y_oot_proba)
 report_oot['base'] = 'Oot'
 
 df_metrics = pd.DataFrame([report_train,report_test,report_oot])
-df_metrics
-# %%
-
-# | Acurárica	Curva Roc	Precisão	Recall | Base
-# | 0.819401	0.913987	0.770598	0.845745 | Train
-# | 0.747634	0.817416	0.684848	0.801418 | Test
-# | 0.741602	0.814528	0.669291	0.594406 | Oot
+print(df_metrics)
 
 # %%
 

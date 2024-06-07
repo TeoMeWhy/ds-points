@@ -8,6 +8,8 @@ Projeto de aplicação em Data Science do início ao fim. Um pipeline completo p
   - [Contexto](#contexto)
   - [Etapas](#etapas)
   - [Pré-requisitos](#pré-requisitos)
+- [Desafio](#desafio)
+- [Sobre o autor](#sobre-o-autor)
 - [Como apoiar](#apoie-essa-inciativa)
 
 ## Sobre
@@ -54,6 +56,39 @@ Para ter uma melhor experiência com nosso projeto, vale a pena conferir as segu
   - [Extensão Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
   - [Extensão SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
   - [Extensão SQLTools SQLite](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-sqlite)
+
+## Desafio
+
+Durante o nosso curso realizamos o treinamento de um modelo Random Forest com GridSearch. A partir deste modelo, obtivemos as seguintes métricas:
+
+| Acurárica | Curva Roc |	Precisão |	Recall | Base |
+| :---: | :---: |	:---: |	:---: | :---: |
+| 0.819401 | 0.913987 |	0.770598 |	0.845745 | Train |
+| 0.747634 | 0.817416 |	0.684848 |	0.801418 | Test |
+| 0.741602 | 0.814528 |	0.669291 |	0.594406 | Oot |
+
+Utilize os dados [deste link](https://docs.google.com/spreadsheets/d/1zcP7CKDcqEkhK2b_g27yGY226ZaX_kX4UxBsNQfM9RQ/edit?usp=sharing) para tentar melhorar a performance do modelo na base Out of Time (oot).
+
+Considere:
+
+```python
+
+target = 'flChurn'
+features = df_train.columns[3:].tolist()
+
+# Dataframe oot
+df_oot = df[df['dtRef']==df['dtRef'].max()]
+
+# Dataframe de treino
+df_train = df[df['dtRef']<df['dtRef'].max()]
+
+X_train, X_test, y_train, y_test = model_selection.train_test_split(df_train[features],
+                                                                    df_train[target],
+                                                                    random_state=42,
+                                                                    train_size=0.8,
+                                                                    stratify=df_train[target])
+
+```
 
 ## Sobre o autor
 
