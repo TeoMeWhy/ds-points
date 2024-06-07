@@ -1,0 +1,5 @@
+feature_engine==1.8.0
+pandas==2.2.2
+scikit_learn==1.5.0
+SQLAlchemy==2.0.30
+tqdm==4.66.4
