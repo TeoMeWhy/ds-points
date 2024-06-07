@@ -61,11 +61,11 @@ Para ter uma melhor experiência com nosso projeto, vale a pena conferir as segu
 
 Durante o nosso curso realizamos o treinamento de um modelo Random Forest com GridSearch. A partir deste modelo, obtivemos as seguintes métricas:
 
-| Acurárica | Curva Roc |	Precisão |	Recall | Base |
-| :---: | :---: |	:---: |	:---: | :---: |
-| 0.819401 | 0.913987 |	0.770598 |	0.845745 | Train |
-| 0.747634 | 0.817416 |	0.684848 |	0.801418 | Test |
-| 0.741602 | 0.814528 |	0.669291 |	0.594406 | Oot |
+| Base  | Acurárica | Curva Roc |	Precisão | Recall   |
+| :---: | :---:     | :---:     | ---:     | :---:    |
+| **Train** | 0.819401  | 0.913987  |	0.770598 | 0.845745 |
+| **Test**  | 0.747634  | 0.817416  |	0.684848 | 0.801418 |
+| **Oot**   | 0.741602  | 0.814528  |	0.669291 | 0.594406 |
 
 Utilize os dados [deste link](https://docs.google.com/spreadsheets/d/1zcP7CKDcqEkhK2b_g27yGY226ZaX_kX4UxBsNQfM9RQ/edit?usp=sharing) para tentar melhorar a performance do modelo na base Out of Time (oot).
 
