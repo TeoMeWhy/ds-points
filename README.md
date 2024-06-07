@@ -57,6 +57,17 @@ Para ter uma melhor experiência com nosso projeto, vale a pena conferir as segu
   - [Extensão SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
   - [Extensão SQLTools SQLite](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-sqlite)
 
+#### Setup
+
+Com as ferramentas necessários instaladas, podemos criar nosso *enviroment* a partir do Anaconda (conda):
+
+```bash
+conda create --name ds_points python=3.
+conda activate ds_points
+
+pip install -r requirements.txt
+```
+
 ## Desafio
 
 Durante o nosso curso realizamos o treinamento de um modelo Random Forest com GridSearch. A partir deste modelo, obtivemos as seguintes métricas:
