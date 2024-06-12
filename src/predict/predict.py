@@ -1,16 +1,26 @@
 # %%
-
 import pandas as pd
 import sqlalchemy
 from sqlalchemy import exc
 
+import mlflow
+import mlflow.sklearn
+
+import json
+
 print("Scrip para execução de modelos iniciado!")
 
-
 print("Carregando modelo...")
-model_series = pd.read_pickle("../../models/rf_teo_fim_curso.pkl")
-model_series
+mlflow.set_tracking_uri("http://192.168.1.100:8081")
+model = mlflow.sklearn.load_model("models:/Churn-Teo-Me-Why/production")
 
+# %%
+print("Carregando as features do modelo...")
+model_info = mlflow.models.get_model_info("models:/Churn-Teo-Me-Why/production")
+features = [i['name'] for i in json.loads(model_info.signature_dict['inputs'])]
+features
+
+# %%
 print("Carregando base para score...")
 engine = sqlalchemy.create_engine("sqlite:///../../data/feature_store.db")
 with open("etl.sql", 'r') as open_file:
@@ -18,9 +28,12 @@ with open("etl.sql", 'r') as open_file:
 
 df = pd.read_sql(query, engine)
 
+# %%
 print("Realizando predições...")
-pred = model_series['model'].predict_proba(df[model_series['features']])
+pred = model.predict_proba(df[features])
 proba_churn = pred[:,1]
+
+# %%
 
 print("Persistindo dados...")
 df_predict = df[['dtRef', 'idCustomer']].copy()
