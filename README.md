@@ -1,5 +1,7 @@
 # Data Science & Points
 
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 <img src="https://i.ibb.co/cc3d5Lq/teomewhy-A-little-child-wizard-wearing-a-purple-cloak-using-h-d359021c-4186-4e11-9693-a6e4f1b1b7c5-3.png" alt="teomewhy-A-little-child-wizard-wearing-a-purple-cloak-using-h-d359021c-4186-4e11-9693-a6e4f1b1b7c5-3" border="0" width=800>
 
 Projeto de aplicação em Data Science do início ao fim. Um pipeline completo para solução de dados.
@@ -11,6 +13,14 @@ Projeto de aplicação em Data Science do início ao fim. Um pipeline completo p
 - [Desafio](#desafio)
 - [Sobre o autor](#sobre-o-autor)
 - [Como apoiar](#apoie-essa-inciativa)
+
+Este material está sob a licença: [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 ## Sobre
 Coinstruimos uma solução de Data Science, aplicando técnicas de Machine Learning para um problema de negócios específico.
