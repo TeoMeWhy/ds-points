@@ -99,16 +99,18 @@ print("AUC Score train:", auc_train)
 print("AUC Score test:", auc_test)
 print("AUC Score oot:", auc_oot)
 
-metrics = {
- "train": auc_train,
-"test": auc_test,
-"oot"   : auc_oot,
+metrics_values = {
+    "train": auc_train,
+    "test": auc_test,
+    "oot": auc_oot,
 }
 
 model_export = pd.Series(
     {
         "model":model_pipe,
         "features":features,
-        "metrics": 
+        "metrics": metrics_values,
      }
 )
+
+model_export.to_pickle("../../models/rf_2024_06_19.pkl")
