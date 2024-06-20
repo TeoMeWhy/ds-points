@@ -10,9 +10,9 @@ WITH tb_fl_churn AS (
     ON t1.idCustomer = t2.idCustomer
     AND t1.dtRef = date(t2.dtRef, '-21 day')
 
-    WHERE (t1.dtRef < DATE('2024-06-07', '-21 day')
+    WHERE (t1.dtRef < DATE('2024-06-20', '-21 day')
     AND strftime('%d', t1.dtRef) = '01')
-    OR t1.dtRef = DATE('2024-06-07', '-21 day')
+    OR t1.dtRef = DATE('2024-06-20', '-21 day')
 
     order by 1,2
 
