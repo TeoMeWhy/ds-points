@@ -1,6 +1,4 @@
-SELECT cluster_recencia,
-        cluster_fv,
-        count(*)
+SELECT *
 FROM customer_profile
 
 group by 1,2
