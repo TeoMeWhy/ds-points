@@ -3,7 +3,7 @@ WITH tb_rfv AS (
     SELECT 
 
             idCustomer,
-            cast(min(julianday('2024-06-04') - julianday(dtTransaction))
+            CAST(min(julianday('{date}') - julianday(dtTransaction))
                 AS INTEGER) +1 AS recenciaDias,
 
             COUNT(DISTINCT DATE(dtTransaction)) AS frequenciaDias,
@@ -14,8 +14,8 @@ WITH tb_rfv AS (
 
     FROM transactions
 
-    WHERE dtTransaction < '2024-06-04'
-    AND dtTransaction >= DATE('2024-06-04', '-21 day')
+    WHERE dtTransaction < '{date}'
+    AND dtTransaction >= DATE('{date}', '-21 day')
 
     GROUP BY idCustomer
 
@@ -26,7 +26,7 @@ tb_idade AS (
 
     SELECT 
         t1.idCustomer,
-        cast(max(julianday('2024-06-04') - julianday(t2.dtTransaction))
+        CAST(max(julianday('{date}') - julianday(t2.dtTransaction))
                     AS INTEGER) +1 AS idadeBaseDias
 
     FROM tb_rfv AS t1
@@ -38,7 +38,9 @@ tb_idade AS (
 
 )
 
-SELECT t1.*,
+SELECT 
+        '{date}' AS dtref,
+        t1.*,
         t2.idadeBaseDias,
         t3.flEmail
 
